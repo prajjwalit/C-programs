@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main()
+{
+  int n;
+ 
+  printf("\n Please Enter any number you wish \n ");
+  scanf("%d", &n);
+ 
+  if (( n%400 == 0)|| (( n%4 == 0 ) &&( n%100 != 0)))
+      printf("\n %d is a Leap. \n", n);
+  else
+      printf("\n %d is not. \n", n);
+  
+   return 0;
+}
